@@ -12,13 +12,10 @@ import static java.util.stream.Collectors.toList;
 
 
 
-public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        int N = Integer.parseInt(bufferedReader.readLine().trim());
-
-        bufferedReader.close();
+public class Java_Loops_I {
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int N=s.nextInt();
         int result; 
         for(int i=1;i<=10;i++)
         {
